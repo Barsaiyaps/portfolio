@@ -1,0 +1,80 @@
+.contact{
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.contact h1{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: none;
+    color:white;
+    margin-left: 20px;
+}
+.contactInfo{
+    /* display: flex; */
+    justify-content: space-between;
+    margin-left: 20px;
+    padding: auto;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+}
+.contactIcons{
+    display:flex ;
+    margin-left: 20px;
+    padding: auto;
+    text-align: left;
+    margin-top: 10px;  
+}
+.contactIcons img{
+    margin: 20px;
+    border-radius: 20%;
+    height: 50px;
+    width: 50px;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .contact {
+      flex-direction: column;
+      padding: 20px;
+      width: 90%;
+    }
+  
+    .contact h1 {
+      font-size: 24px;
+      text-align: center;
+      margin-left: 0;
+      margin-bottom: 20px;
+    }
+  
+    .contactInfo {
+      font-size: 16px;
+      text-align: center;
+      margin-left: 0;
+      margin-bottom: 20px;
+    }
+  
+    .contactIcons {
+      justify-content: center;
+      margin-left: 0;
+      flex-wrap: wrap;
+    }
+  
+    .contactIcons img {
+      height: 40px;
+      width: 40px;
+      margin: 10px;
+    }
+  }
+  
