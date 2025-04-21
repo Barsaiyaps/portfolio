@@ -17,7 +17,8 @@
 
 .btn-project:hover{
     background-color: black;
-    color: white;
+    background-color: rgb(235, 201, 235);
+    
 }
 
 .project-title{
@@ -43,6 +44,7 @@ justify-content:center
   height: 300px;
   margin: 0px;
   padding: 0px;
+  border: 1px solid purple;
   border-radius: 100%;
 }
 .menuItems {
@@ -68,6 +70,7 @@ justify-content:center
   border: 1px solid white;
   width: 380px;
   text-align: center;
+  
 }
 
 .projects {

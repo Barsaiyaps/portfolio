@@ -3,6 +3,13 @@ import "./navbar.css";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(true);
+  const [theme,setTheme]=useState('dark')
+
+  function changeTheme(){
+    setTheme(theme=='dark'?'dark':'dark')
+  }
+  
+  // document.getElementById("body").classList.add(theme);
 
   return (
     <nav className="navbar">
@@ -18,6 +25,8 @@ function Navbar() {
         <li><a href="#skills" onClick={() => setMenuOpen(false)}>Skills</a></li>
         <li><a href="#projects" onClick={() => setMenuOpen(false)}>Projects</a></li>
         <li><a href="#contacts" onClick={() => setMenuOpen(false)}>Contacts</a></li>
+        <li><button  onClick={changeTheme}>Theme</button></li>
+
       </ul>
     </nav>
   );
