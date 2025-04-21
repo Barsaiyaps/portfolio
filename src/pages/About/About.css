@@ -1,4 +1,4 @@
-/* General Reset for Images */
+
 .profile {
   border-radius: 100%;
   width: 300px;
@@ -7,26 +7,29 @@
 }
 
 /* Container */
-.container {
+.container-about {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 80%;
   margin: 50px auto 0 auto;
   padding: 30px;
-  /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
   border-radius: 20px;
   position: relative;
 }
+.content-about {
+  font-size: 40px;
+  margin: auto;
+}
 
-.container > div {
+.container-about > div {
   width: 40%;
 }
 
 /* Headings */
-heading {
+.heading-about {
   text-align: center;
-  font-size: 80px;
+  font-size: 50px;
 }
 
 /* Dropping Text Animation */
@@ -92,11 +95,8 @@ heading {
 
 /* Mobile Responsive Design */
 @media screen and (max-width: 768px) {
-  .container {
+  .container-about {
     flex-direction: column-reverse;
-    /* justify-content: center; */
-    /* align-items: center; */
-    border:1px solid red;
     width: 90%;
     padding: 20px;
     text-align: center;
@@ -113,8 +113,10 @@ heading {
     margin-left: 10px;
   }
 
-  .heading {
+  .heading-about {
     font-size: 40px;
+    color: black;
+    size: 400px;
   }
 
   .dropping-texts {

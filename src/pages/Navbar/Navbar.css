@@ -1,27 +1,24 @@
 .navbar {
-    position: fixed;
+    position: sticky;
     top: 0;
-    width: 100%;
+    width: 90%;
     padding: 20px 30px;
+    margin:auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
-    z-index: 1000;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    z-index: 10;
   }
   
   .title {
     font-size: 30px;
     font-weight: 600;
     text-decoration: none;
-    color: white;
   }
   
   .menu-icon {
     display: none;
     font-size: 30px;
-    color: white;
     cursor: pointer;
   }
   
@@ -33,12 +30,8 @@
   
   .menuItems li a {
     font-size: 20px;
-    color: white;
     text-decoration: none;
-  }
-  
-  .menuItems li a:hover {
-    color: #ffeb3b;
+    color: black;
   }
   
   /* Mobile view */
@@ -69,14 +62,16 @@
   
   .menuItems li a {
     font-size: 20px;
-    color: white;
     text-decoration: none;
     position: relative;
     transition: color 0.3s ease;
+    padding: 10px;
   }
   
   .menuItems li a:hover {
-    color: #00ffff; /* Aqua or neon effect */
+    background-color: black;
+    color: white; /* Aqua or neon effect */
+    border-radius: 10px;
   }
   
   .menuItems li a::after {
@@ -86,7 +81,7 @@
     height: 2px;
     left: 0;
     bottom: -4px;
-    background-color: #00ffff;
+    background-color: #192c2c;
     transition: width 0.3s ease;
   }
   

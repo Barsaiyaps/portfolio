@@ -6,8 +6,8 @@ function Skills() {
 
     return (
         <>
-            <div className='container1' id='skills'>
-                <div className='content'>
+            <div className='container-skills' id='skills'>
+                <div className='content-skills'>
                     <h1>Skills</h1>
                     <div className='skills'>
                     {skills.skills.map((item, index) => (<div className='skill' key={index}>

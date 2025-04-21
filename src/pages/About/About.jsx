@@ -6,14 +6,14 @@ function About() {
 
   return (
     <>
-      <div className='container' id='about'>
-        <div className='content'>
-          <h1 className="heading" style={{ color: "white", size: "400px" }}>Hi, I am Pankaj Barsaiya</h1>
+      <div className='container-about' id='about'>
+        <div className='content-about'>
+          <h1 className="heading-about" >Hi, I am Pankaj Barsaiya</h1>
 
           <div class="dropping-texts">
-            <div>Developers</div>
-            <div>Designers</div>
-            <div>Coders</div>
+            <div>Developer</div>
+            <div>Frontend</div>
+            <div>Backend</div>
           </div>
 
 

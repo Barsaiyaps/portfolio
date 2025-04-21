@@ -1,25 +1,20 @@
-.container1{
+.container-skills{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 80%;
     margin: auto;
-    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
     border-radius: 20px;
     padding: 30px;
     margin-top: 50px;
 }
-.container>div{
-    width: 40%;
-}
 
-.content>h1{
+.content-skills>h1{
     display: flex;
     text-align: center;
     font-size: 30px;
     font-weight: 600;
     text-decoration: none;
-    color:white;
 }
 
 .skills{
@@ -29,7 +24,6 @@
     align-items: center;
     justify-content: center;
     margin: auto;
-    /* border: 1px solid white; */
 }
 .skill{
     display:flex ;
@@ -39,7 +33,6 @@
     gap: 10px;
     align-items: center;
     justify-content: center;
-    /* border: 1px solid red; */
     width: 100%;
     justify-content: space-between;
     padding: 10px;
@@ -52,20 +45,19 @@
 }   
 
 @media screen and (max-width: 768px) {
-  .container1 {
+  .container-skills {
     flex-direction: column;
     width: 90%;
     padding: 20px;
     text-align: center;
   }
 
-  .container1 > div {
-    
+  .container-skills > div {
     width: 90%;
     margin-bottom: 20px;
   }
 
-  .content > h1 {
+  .content-skills > h1 {
     font-size: 24px;
     justify-content: center;
     text-align: center;
