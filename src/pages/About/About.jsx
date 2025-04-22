@@ -19,7 +19,7 @@ function About() {
 
         </div>
           <div>
-            <img className='profile' src='src\data\myPhoto.jpg' alt=''></img>
+            <img className='profile' src="https://res.cloudinary.com/durstabwa/image/upload/v1745332494/myPhoto_hvsrat.jpg" alt=''></img>
           </div>
 
       </div>

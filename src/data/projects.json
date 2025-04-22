@@ -3,23 +3,23 @@
       {
         "title": "Myntra Clone",
         "description": "A fully responsive clone of the Myntra shopping platform, built using React and styled-components. It includes product listings, filtering, cart functionality, and user authentication.",
-        "image": "/data/myntra.png",
-        "github": "https://github.com/Barsaiyaps/User_Product_Order_FE",
-        "link": "https://mynt1212.netlify.app/"
+       "image":"https://res.cloudinary.com/durstabwa/image/upload/v1745332532/myntra_twotqo.png",
+        "github":"https://github.com/Barsaiyaps/User_Product_Order_FE",
+        "link":"https://mynt1212.netlify.app/"
       },
       {
         "title": "Dell Homepage",
         "description": "A front-end replica of the Dell India homepage using React. The project mimics the look and feel of the original site and showcases modern web design elements and responsive layouts.",
-        "image": "/data/dellHome.png",
-        "github": "https://github.com/Barsaiyaps/dellCloneReact",
-        "link": "https://dell-clone-react-9n5c.vercel.app/"
+        "image":"https://res.cloudinary.com/durstabwa/image/upload/v1745332543/dellHome_psajje.png",
+        "github":"https://github.com/Barsaiyaps/dellCloneReact",
+        "link":"https://dell-clone-react-9n5c.vercel.app/"
       },
       {
         "title": "Task Manager",
         "description": "A React-based Task Management app with features like task creation, status updates, and deletions. Useful for tracking personal or team tasks, with a clean and intuitive UI.",
-        "image": "/data/taskManager.png",
-        "github": "https://github.com/Barsaiyaps/taskManger",
-        "link": "https://task-manger-eight.vercel.app/"
+        "image":"https://res.cloudinary.com/durstabwa/image/upload/v1745332499/taskManager_teakpn.png",
+        "github":"https://github.com/Barsaiyaps/taskManger",
+        "link":"https://task-manger-eight.vercel.app/"
       }
     ]
   }
