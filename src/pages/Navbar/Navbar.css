@@ -1,5 +1,5 @@
 .navbar {
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     width: 90%;
     padding: 20px 30px;
@@ -8,14 +8,13 @@
     justify-content: space-between;
     align-items: center;
     z-index: 10;
-    background-color: rgb(199, 74, 199);
+    background-color: rgb(204, 11, 204);
     border-radius: 10px;
   }
   
-  .title {
+  .navbar-title {
     font-size: 30px;
     font-weight: 600;
-    text-decoration: none;
   }
   
   .menu-icon {
@@ -33,19 +32,10 @@
   .menuItems li a {
     font-size: 20px;
     text-decoration: none;
-    color: black;
+  
   }
 
 
-  
-.dark{
-    background-color: black;
-    color: white;
-}
-.light{         
-    background-color: white;
-    color: black;
-}
   
   /* Mobile view */
   @media (max-width: 768px) {

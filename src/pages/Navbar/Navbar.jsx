@@ -3,17 +3,10 @@ import "./Navbar.css";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(true);
-  const [theme,setTheme]=useState('dark')
-
-  function changeTheme(){
-    setTheme(theme=='dark'?'dark':'dark')
-  }
-  
-  // document.getElementById("body").classList.add(theme);
 
   return (
     <nav className="navbar">
-      <a className="title" href="/">Portfolio</a>
+      <a className="navbar-title" href="/">Portfolio</a>
 
       <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
         ☰
