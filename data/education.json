@@ -1,0 +1,32 @@
+{
+  "education": [
+    {
+      "institution": "MASAI SCHOOL",
+      "degree": "FULL STACK WEB DEVELOPMENT",
+      "year": "2023-2025",
+      "grade": "",
+      "description": "Completed coursework in Web Development, Data Structures, and Software Engineering."
+    },
+    {
+      "institution": "SHRI RAMDEOBABA COLLEGE OF ENGINEERING AND MANAGEMENT",
+      "degree": "BE IN ELECTRICAL ENGINEERING",
+      "year": "2015 - 2019",
+      "grade": "CGPA: 8.4",
+      "description": "Completed Bachelor of Engineering in Electrical Engineering."
+    },
+    {
+      "institution": "GOVT. POLYTECHNICAL AMRAVATI",
+      "degree": "DIPLOMA IN ELECTRICAL ENGINEERING",
+      "year": "2012-2015",
+      "grade": "Percentage: 84.20%",
+      "description": "Completed Diploma in Electrical Engineering."
+    },
+    {
+      "institution": "MANIBAI GUJRATI HIGH SCHOOL",
+      "degree": "Secondary School Certificate (SSC)",
+      "year": "2011-2012",
+      "grade": "Percentage: 87.09%",
+      "description": "Basic education with a focus on Science and Mathematics."
+    }
+  ]
+}

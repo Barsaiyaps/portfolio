@@ -1,10 +1,105 @@
-.container-education {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-    margin: 50px auto 0 auto;
-    padding: 30px;
-    border-radius: 20px;
-    position: relative;
+.container-edu {
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  border-radius: 20px;
+  padding: 30px;
+  margin-top: 50px;
+}
+
+
+.edu-title{
+    font-size:30px;
+    margin-top:20px
+}
+
+
+.content-edu > h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.menu {
+  display: flex;
+}
+
+.menuItems {
+  display: flex;
+  gap: 47px;
+  list-style: none;
+}
+
+.menuItems a {
+  font-size: 25px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.edu-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 20px;
+  padding: 40px;
+  /* border: 1px solid black; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 380px;
+  text-align: center;
+  
+}
+
+.edu {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+/* ✅ Responsive Styles for Mobile Devices */
+@media screen and (max-width: 768px) {
+  .container-edu {
+    width: 90%;
+    padding: 20px;
+    flex-direction: column;
   }
+
+  .menuItems {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 0;
+    margin: auto;
+  }
+
+  .menuItems a {
+    font-size: 20px;
+  }
+
+  .edu-image {
+    width: 80%;
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 100%;
+  }
+
+  .edu-card {
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin: auto;
+  }
+
+  .edu {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .content-edu > h1 {
+    font-size: 24px;
+  }
+}
