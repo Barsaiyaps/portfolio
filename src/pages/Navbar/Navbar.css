@@ -1,95 +1,85 @@
 .navbar {
-    /* position: sticky; */
-    top: 0;
-    width: 90%;
-    padding: 20px 30px;
-    margin:auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 10;
-    background-color: rgb(204, 11, 204);
-    border-radius: 10px;
-  }
-  
-  .navbar-title {
-    font-size: 30px;
-    font-weight: 600;
-  }
-  
+  position: sticky;
+  top: 0;
+  width: 90%;
+  padding: 20px 30px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  background-color: rgb(204, 11, 204);
+  border-radius: 10px;
+}
+
+.navbar-title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.menuItems {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.menuItems li a {
+  font-size: 20px;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease;
+  padding: 0 10px;
+}
+
+.menuItems li a:hover {
+  background-color: rgb(235, 201, 235);
+  color: black;
+  border-radius: 10px;
+}
+
+.menuItems li a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 0;
+  bottom: -4px;
+  background-color: #192c2c;
+  transition: width 0.3s ease;
+}
+
+.menuItems li a:hover::after {
+  width: 100%;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
   .menu-icon {
-    display: none;
-    font-size: 30px;
-    cursor: pointer;
+    display: block;
   }
-  
+
   .menuItems {
-    display: flex;
-    gap: 40px;
-    list-style: none;
-  }
-  
-  .menuItems li a {
-    font-size: 20px;
-    text-decoration: none;
-  
-  }
-
-
-  
-  /* Mobile view */
-  @media (max-width: 768px) {
-    .menu-icon {
-      display: block;
-    }
-  
-    .menuItems {
-        
-      display: none;
-      position: absolute;
-      top: 100px;
-      right: 0;
-      width: auto;
-      flex-direction: column;
-      align-items: center;
-      border-radius:10px;
-      gap: 20px;
-      color: black;
-      border: 1px solid black;
-      background: linear-gradient(white);
-    }
-  
-    .menuItems.open {
-      display: none;
-    }
-  }
-  
-  .menuItems li a {
-    font-size: 20px;
-    text-decoration: none;
-    position: relative;
-    transition: color 0.3s ease;
-    padding: 0 10px;
-  }
-  
-  .menuItems li a:hover {
-    background-color: rgb(235, 201, 235);
-    color: black; /* Aqua or neon effect */
-    border-radius: 10px;
-  }
-  
-  .menuItems li a::after {
-    content: "";
+    display: none;
     position: absolute;
-    width: 0%;
-    height: 2px;
-    left: 0;
-    bottom: -4px;
-    background-color: #192c2c;
-    transition: width 0.3s ease;
+    top: 80px;
+    right: 30px;
+    background: white;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 10px;
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    z-index: 20;
   }
-  
-  .menuItems li a:hover::after {
-    width: 100%;
+
+  .menuItems.open {
+    display: flex;
   }
-  
+}

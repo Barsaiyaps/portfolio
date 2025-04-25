@@ -10,7 +10,8 @@ function Contact() {
                 <h1>Contact</h1>
                 <div className='contactInfo'>
                     <div>
-                        <h2>Phone Number: +91 8698528846</h2>
+                        <h2>Mobile Number: +91 8698528846</h2>
+                        <h2>Alternate Number: +91 8329635108</h2>
                         <h2>Email: pankajbars@gmail.com</h2>
                         <h2>Address: Thane, Maharashtra, India</h2>
                     </div>
