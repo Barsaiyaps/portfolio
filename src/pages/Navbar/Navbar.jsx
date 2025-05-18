@@ -21,7 +21,7 @@ function Navbar() {
         <li><a href="#skills" >Skills</a></li>
         <li><a href="#projects" >Projects</a></li>
         <li><a href="#contacts" >Contacts</a></li>
-        <li><button onClick={toggleTheme} style={{fontWeight:"bold",fontSize:"20px" }}>{theme=="light"?"◒ DARK":"🔆 LIGHT"} </button></li>
+        <li><button onClick={toggleTheme} style={{fontWeight:"bold",fontSize:"20px",paddingBottom:'5px' }}>{theme=="light"?"◒ DARK":"🔆 LIGHT"} </button></li>
 
       </ul>
     </nav>
