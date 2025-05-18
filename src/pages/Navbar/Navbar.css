@@ -55,8 +55,10 @@
       gap: 20px;
       color: black;
       border: 1px solid black;
+      background-color: white;
       width: 200px;
       z-index: 10;
+    
     }
   
     .menuItems.open {
