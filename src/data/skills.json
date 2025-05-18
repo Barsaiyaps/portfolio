@@ -27,6 +27,14 @@
         {
             "title": "Express.js",
             "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+        },
+        {
+            "title": "Chakra UI",
+            "img": "https://img.icons8.com/color/200/chakra-ui.png"
+        },
+        {
+            "title": "Redux",
+            "img": "https://static-00.iconduck.com/assets.00/redux-icon-2048x1945-ahvhunxp.png"
         }
     ]       
 }

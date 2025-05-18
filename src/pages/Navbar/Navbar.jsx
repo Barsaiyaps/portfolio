@@ -16,12 +16,12 @@ function Navbar() {
       </div>
 
       <ul className={`menuItems ${menuOpen ? "open" : ""}`}>
-        <li><a href="#about" onClick={() => setMenuOpen(false)}>About</a></li>
-        <li><a href="#education" onClick={() => setMenuOpen(false)}>Education</a></li>
-        <li><a href="#skills" onClick={() => setMenuOpen(false)}>Skills</a></li>
-        <li><a href="#projects" onClick={() => setMenuOpen(false)}>Projects</a></li>
-        <li><a href="#contacts" onClick={() => setMenuOpen(false)}>Contacts</a></li>
-        <li><button onClick={toggleTheme} style={{fontWeight:"bold",fontSize:"20px" }}>{theme=="light"?"DARK":"LIGHT"} MODE</button></li>
+        <li><a href="#about" >About</a></li>
+        <li><a href="#education" >Education</a></li>
+        <li><a href="#skills" >Skills</a></li>
+        <li><a href="#projects" >Projects</a></li>
+        <li><a href="#contacts" >Contacts</a></li>
+        <li><button onClick={toggleTheme} style={{fontWeight:"bold",fontSize:"20px" }}>{theme=="light"?"◒":"🔆"} </button></li>
 
       </ul>
     </nav>

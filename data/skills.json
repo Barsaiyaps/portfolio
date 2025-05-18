@@ -27,6 +27,14 @@
         {
             "title": "Express.js",
             "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+        },
+        {
+            "title": "Chakra UI",
+            "img": "https://delta-dev-software.fr/wp-content/uploads/2024/02/1_q0emKRBNI0Sv_NseTYRDwg.png"
+        },
+        {
+            "title": "Redux",
+            "img": "https://miro.medium.com/v2/resize:fit:500/1*tOI6UC5EaS2fPItCesI-AQ.png"
         }
     ]       
 }
