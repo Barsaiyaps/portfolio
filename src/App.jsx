@@ -20,7 +20,7 @@ function App(){
 
 
   return(
-    <div className={theme}>
+    <div id="app" className={theme}>
     <ThemeContext value={{theme, toggleTheme}}>
     <Navbar/>
     <About />
