@@ -1,7 +1,7 @@
 .navbar {
     /* position: sticky; */
     top: 0;
-    width: 90%;
+    width: 1200px;
     padding: 20px 30px;
     margin:auto;
     display: flex;
@@ -10,6 +10,7 @@
     z-index: 10;
     background-color: rgb(204, 11, 204);
     border-radius: 10px;
+    /* border: 2px solid black */
   }
   
   .navbar-title {
@@ -38,7 +39,10 @@
 
   
   /* Mobile view */
-  @media (max-width: 968px) {
+  @media (max-width: 768px) {
+    .navbar{
+      width: 90%;
+    }
     .menu-icon {
       display: block;
     }

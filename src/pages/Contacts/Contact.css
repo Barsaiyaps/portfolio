@@ -1,75 +1,76 @@
-.contact-container{
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-    margin: auto;
-    padding: 30px;
-    margin-top: 50px;
-    /* background-color: rgb(235, 201, 235) */
+.contact-body{
+  background-color: rgb(235, 201, 235); 
 }
 
-.contact-container h1{
-    font-size: 30px;
-    font-weight: 600;
-    text-align: left;
-    text-decoration: none;
-    margin-left: 20px;
+.contact-container {
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  margin: auto;
+  padding: 30px;
+  margin-top: 50px;
+  border-radius: 10px;
+  /* border: 2px solid black; */
 }
-.contactInfo{
+
+.contact-container h1 {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: left;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.contactInfo {
   display: flex;
-    justify-content: space-between;
-    margin-left: 20px;
-    padding: auto;
-    text-align: left;
-    font-size: 20px;
+  justify-content: space-between;
+  margin-left: 20px;
+  padding: auto;
+  text-align: left;
 }
-.contactIcons{
-    display:flex ;
-    margin: 20px;
-    padding: auto;
-    /* text-align: left; */
-    /* margin-top: 10px;   */
+.contactIcons {
+  display: flex;
+  margin: 20px;
+  padding: auto;
 }
-.contactIcons img{
-    margin: 20px;
-    border-radius: 20%;
-    height: 35px;
-    width: 35px;
-    text-align: left;
-    font-size: 20px;
+.contactIcons img {
+  margin: 20px;
+  border-radius: 20%;
+  height: 35px;
+  width: 35px;
+  text-align: left;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 768px) {
-    .contact-container {
-      flex-direction: column;
-      padding: 20px;
-      width: 90%;
-    }
-  
-    .contact-container h1 {
-      font-size: 24px;
-      text-align: center;
-      margin-left: 0;
-      margin-bottom: 20px;
-    }
-  
-    .contactInfo {
-      font-size: 16px;
-      text-align: center;
-      margin-left: 0;
-      margin-bottom: 20px;
-    }
-  
-    .contactIcons {
-      justify-content: center;
-      margin-left: 0;
-      flex-wrap: wrap;
-    }
-  
-    .contactIcons img {
-      height: 20px;
-      width: 20px;
-      margin: 10px;
-    }
+  .contact-container {
+    flex-direction: column;
+    padding: 20px;
+    width: 90%;
   }
-  
+
+  .contact-container h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .contactInfo {
+    font-size: 16px;
+    text-align: center;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .contactIcons {
+    justify-content: center;
+    margin-left: 0;
+    flex-wrap: wrap;
+  }
+
+  .contactIcons img {
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+  }
+}

@@ -1,48 +1,50 @@
-.container-skills{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-    margin: auto;
-    border-radius: 20px;
-    padding: 30px;
-    margin-top: 50px;
+.container-skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  margin: auto;
+  border-radius: 20px;
+  padding: 30px;
+  margin-top: 50px;
+  /* border: 2px solid black */
+}
+.content-skills {
+  width: 100%;
 }
 
-.content-skills>h1{
-    display: flex;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 600;
-    text-decoration: none;
+.content-skills > h1 {
+  display: flex;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
 }
 
-.skills{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
+.skills {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 50px;
 }
-.skill{
-    display:flex ;
-    margin: auto;
-    border-radius: 20px;
-    flex-direction: column  ;
-    gap: 10px;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    justify-content: space-between;
-    padding: 10px;
+.skill {
+  display: flex;
+  margin: auto;
+  border-radius: 20px;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
 }
-.skill>img{
-    margin: auto;
-    border-radius: 0%;
-    width: 100px;
-    height: 100px;
-}   
+.skill > img {
+  margin: auto;
+  border-radius: 0%;
+  width: 100px;
+  height: 100px;
+}
 
 @media screen and (max-width: 768px) {
   .container-skills {

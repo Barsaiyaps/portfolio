@@ -1,34 +1,34 @@
 .container-project {
-  justify-content: space-between;
-  align-items: center;
-  width: 80%;
+  /* justify-content: space-between;
+  align-items: center; */
+  width: 1200px;
   margin: auto;
   border-radius: 20px;
   padding: 30px;
   margin-top: 50px;
+  /* border: 2px solid black */
 }
 
 .btn-project {
-    margin: 30px;
-    font-size: 20px;
-    padding: 5px;
-    border-radius: 5px;
+  margin: 30px;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
 }
 
-.btn-project:hover{
-    background-color: black;
-    background-color: rgb(235, 201, 235);
-    
+.btn-project:hover {
+  background-color: black;
+  background-color: rgb(235, 201, 235);
 }
 
-.project-title{
-    font-size:30px;
-    margin-top:20px
+.project-title {
+  font-size: 30px;
+  margin-top: 20px;
 }
 
-.project-links{
-display:flex;
-justify-content:center
+.project-links {
+  display: flex;
+  justify-content: center;
 }
 
 .content-project > h1 {
@@ -70,7 +70,6 @@ justify-content:center
   border: 1px solid white;
   width: 380px;
   text-align: center;
-  
 }
 
 .projects {
