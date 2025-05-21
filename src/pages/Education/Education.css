@@ -1,12 +1,12 @@
 .container-edu {
   justify-content: space-between;
   align-items: center;
-  width: 1200px;
+  width: 80%;
   margin: auto;
   border-radius: 20px;
   padding: 30px;
   margin-top: 50px;
-  /* border: 2px solid black */
+  
 }
 
 
@@ -61,7 +61,7 @@
 }
 
 /* ✅ Responsive Styles for Mobile Devices */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
   .container-edu {
     width: 90%;
     padding: 20px;

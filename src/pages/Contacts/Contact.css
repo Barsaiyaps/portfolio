@@ -5,7 +5,7 @@
 .contact-container {
   justify-content: space-between;
   align-items: center;
-  width: 1200px;
+  width: 80%;
   margin: auto;
   padding: 30px;
   margin-top: 50px;
@@ -41,7 +41,7 @@
   font-size: 20px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
   .contact-container {
     flex-direction: column;
     padding: 20px;
