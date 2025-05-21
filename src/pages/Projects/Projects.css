@@ -82,7 +82,7 @@
 }
 
 /* ✅ Responsive Styles for Mobile Devices */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .container-project {
     width: 90%;
     padding: 20px;

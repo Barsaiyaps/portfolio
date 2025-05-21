@@ -94,7 +94,7 @@
 }
 
 /* Mobile Responsive Design */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .container-about {
     flex-direction: column-reverse;
     width: 90%;

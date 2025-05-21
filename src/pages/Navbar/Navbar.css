@@ -1,5 +1,5 @@
 .navbar {
-    /* position: sticky; */
+    position: sticky;
     top: 0;
     width: 1200px;
     padding: 20px 30px;
@@ -39,7 +39,7 @@
 
   
   /* Mobile view */
-  @media (max-width: 1200px) {
+  @media (max-width: 1200px ) {
     .navbar{
       width: 90%;
     }
