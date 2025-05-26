@@ -98,33 +98,6 @@ justify-content:center
     margin: auto;
   }
 
-  .menuItems a {
-    font-size: 20px;
-  }
-
-  .project-image {
-    width: 80%;
-    height: 300px;
-    margin: 0px;
-    padding: 0px;
-    border-radius: 100%;
-  }
-
-  .project-card {
-    width: 90%;
-    margin-bottom: 20px;
-    padding: 20px;
-    margin: auto;
-  }
-
-  .projects {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .content-project > h1 {
-    font-size: 24px;
-  }
 
 }
 
