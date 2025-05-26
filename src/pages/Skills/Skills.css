@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 1200px;
   margin: auto;
   border-radius: 20px;
   padding: 30px;
@@ -46,7 +46,43 @@
   height: 100px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 441px) and (max-width: 1200px){
+    .container-skills {
+    flex-direction: column;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .container-skills > div {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .content-skills > h1 {
+    font-size: 24px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .skills {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .skill {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .skill > img {
+    width: 70px;
+    height: 70px;
+  }
+
+}
+
+@media screen and (max-width: 440px) {
   .container-skills {
     flex-direction: column;
     width: 90%;

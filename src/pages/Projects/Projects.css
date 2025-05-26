@@ -1,7 +1,7 @@
 .container-project {
   justify-content: space-between;
   align-items: center;
-  width: 80%;
+  width: 1200px;
   margin: auto;
   border-radius: 20px;
   padding: 30px;
@@ -83,10 +83,9 @@ justify-content:center
   padding: 10px;
 }
 
-/* ✅ Responsive Styles for Mobile Devices */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 441px) and (max-width: 1200px){
   .container-project {
-    width: 90%;
+    width: 80%;
     padding: 20px;
     flex-direction: column;
   }
@@ -106,6 +105,52 @@ justify-content:center
   .project-image {
     width: 80%;
     height: 300px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 100%;
+  }
+
+  .project-card {
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin: auto;
+  }
+
+  .projects {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .content-project > h1 {
+    font-size: 24px;
+  }
+
+}
+
+/* ✅ Responsive Styles for Mobile Devices */
+@media screen and (max-width: 440px) {
+  .container-project {
+    width: 90%;
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .menuItems {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 0;
+    margin: auto;
+  }
+
+  .menuItems a {
+    font-size: 20px;
+  }
+
+  .project-image {
+    /* width: 80%; */
+    /* height: 300px; */
     margin: 0px;
     padding: 0px;
     border-radius: 100%;

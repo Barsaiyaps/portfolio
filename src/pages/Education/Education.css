@@ -1,7 +1,7 @@
 .container-edu {
   justify-content: space-between;
   align-items: center;
-  width: 80%;
+  width: 1200px;
   margin: auto;
   border-radius: 20px;
   padding: 30px;
@@ -60,8 +60,53 @@
   padding: 10px;
 }
 
+ @media screen and (min-width: 441px) and (max-width: 1200px){
+   .container-edu {
+    width: 80%;
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .menuItems {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 0;
+    margin: auto;
+  }
+
+  .menuItems a {
+    font-size: 20px;
+  }
+
+  .edu-image {
+    width: 80%;
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 100%;
+  }
+
+  .edu-card {
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin: auto;
+  }
+
+  .edu {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .content-edu > h1 {
+    font-size: 24px;
+  }
+}
+
+
 /* ✅ Responsive Styles for Mobile Devices */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 440px) {
   .container-edu {
     width: 90%;
     padding: 20px;

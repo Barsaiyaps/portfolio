@@ -11,7 +11,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 80%;
+  width: 1200px;
   margin: 50px auto 0 auto;
   padding: 30px;
   border-radius: 20px;
@@ -93,14 +93,22 @@
   }
 }
 
+ @media screen and (min-width: 441px) and (max-width: 1200px){
+  .container-about{
+    width: 80%;
+    padding: 20px;
+  }
+ }
+
 /* Mobile Responsive Design */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 440px) {
   .container-about {
     flex-direction: column-reverse;
-    width: 90%;
+    width: 80%;
     padding: 20px;
     text-align: center;
   }
+
 
   .container > div {
     width: 100%;

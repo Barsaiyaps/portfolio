@@ -6,7 +6,7 @@
 .contact-container {
   justify-content: space-between;
   align-items: center;
-  width: 80%;
+  width: 1200px;
   margin: auto;
   padding: 30px;
   margin-top: 50px;
@@ -42,11 +42,21 @@
   font-size: 20px;
 }
 
-@media screen and (max-width: 768px) {
+ @media screen and (min-width: 441px) and (max-width: 1200px){
+  .contact-container{
+    display: block;
+    width: 80%;
+    padding: 20px;
+  }
+ }
+
+
+@media screen and (max-width: 440px) {
   .contact-container {
     flex-direction: column;
     padding: 20px;
     width: 90%;
+    margin: auto;
   }
 
   .contact-container h1 {
